@@ -1,0 +1,74 @@
+p {
+    color: #222;
+    width: 400px;
+}
+
+.list_description {
+    border-bottom: 1px solid;
+}
+
+.disc_list{
+    list-style: disc;
+}
+
+.circle_list {
+    list-style: circle;
+}
+
+.square_list {
+    list-style: square;
+}
+
+.none_list {
+    list-style: none;
+}
+
+ol li{
+    list-style: decimal-leading-zero;
+}
+
+.img_list li {
+    list-style: none;
+    background: url("../10_week/img/LP.jpg") no-repeat;
+    background-size: 20px;
+    padding: 0 0 1px 25px;
+}
+
+.prize li {
+    list-style: none;
+    background: url("../10_week/img/LP.jpg") no-repeat;
+    background-size: 20px;
+    padding: 0 0 1px 25px
+}
+
+.prize li:nth-child(3n+1) {
+    background: url("../10_week/img/LP.jpg") no-repeat;
+    background-size: 20px;
+    padding: 0 0 1px 25px;
+}
+
+.prize li:nth-child(3n+2) {
+    background: url("../10_week/img/LP.jpg") no-repeat;
+    background-size: 20px;
+    padding: 0 0 1px 25px;
+}
+
+.prize li:nth-child(3n+3) {
+    background: url("../10_week/img/LP.jpg") no-repeat;
+    background-size: 20px;
+    padding: 0 0 1px 25px;
+}
+
+.style_dl {
+    width: 400px;
+    height: 100px;
+    overflow: auto;
+}
+
+.style_dl dt {
+    float: left;
+}
+
+.style_dl dd {
+    margin: 0 0 1em 0;
+}
