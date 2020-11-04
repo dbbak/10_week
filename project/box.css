@@ -1,0 +1,53 @@
+.forecast {
+    width:300px;
+    height:300px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+    border: 3px solid #3030fa;
+}
+
+
+.link_frame {
+    width:600px;
+    height:600px;
+    border:1px solid;
+    padding-left:10px;
+}
+
+.img_border {
+    width:400px;
+    height:300px;
+    border: 20px solid;
+    border-image-source: url("../img/violet.png");
+    border-image-slice: 60;
+    border-image-width: 20px;
+    border-image-repeat: repeat;
+}
+
+.multi_img {
+    width:200px;
+    height:200px;
+    background-image: url(../img/LP.jpg), 
+        url(../img/LP.jpg), url(../img/LP.jpg);
+    background-repeat: no-repeat,repeat-x,repeat-y;
+    background-position: 100px 10px, 10px 150px, bottom right;
+}
+
+.contain {
+    border: 1px solid;
+    width:200px;
+    height:200px;
+    background-image: url(../img/violet.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cover {
+    border: 1px solid;
+    width:200px;
+    height:200px;
+    background-image: url(../img/violet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -0px
+}

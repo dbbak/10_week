@@ -1,0 +1,51 @@
+#dummy {
+    height:1280px;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+}
+
+a:link {
+    color: aquamarine;
+}
+
+a:hover {
+    color: antiquewhite;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+a:target {
+    background-color: darkorange;
+    color: antiquewhite;
+}
+
+a:active {
+    color: darkorange;
+}
+
+span:hover {
+    background-color: aqua;
+}
+
+span:active {
+    background-color: crimson;
+}
+
+#description {
+    height: 600px;
+}
+
+#LP {
+    width: 300px;
+    height: 300px;
+    opacity: 1; 
+}
+
+#LP:hover {
+    opacity: 0.5;
+}
